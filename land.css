@@ -1,0 +1,134 @@
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: black;
+}
+
+.main {
+
+    background-image: url("comp.png");
+    background-position: center center;
+    background-size: max(1400px, 100vw);
+    background-repeat: no-repeat;
+    height: 70vh;
+    position: relative;
+}
+
+.main .box {
+    height: 70vh;
+    width: 100%;
+   /* opacity: 0.70;
+    position: absolute;
+    top: 0;
+    background-color: black;*/
+}
+
+nav {
+    max-width: 60vw;
+    justify-content: space-between;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    height: 65px;
+}
+
+nav img {
+    color: red;
+    width: 130px;
+    position: relative;
+    z-index: 20;
+}
+.pro1{
+    width:150px;
+    height:150px;
+    border-radius :85px;
+    margin-left:200px;
+    margin-top: 25%;
+}
+
+.aboutus .box {
+    height: 70vh;
+    width: 100%;
+   /* opacity: 0.70;
+    position: absolute;
+    top: 0;
+    background-color: black;*/
+}
+
+.our_services.box {
+    height: 70vh;
+    width: 100%;
+   /* opacity: 0.70;
+    position: absolute;
+    top: 0;
+    background-color: black;*/
+}
+.pro1:hover{
+    opacity: 0.5;
+}
+.pro2:hover{
+    opacity:0.5;
+}
+.pro3:hover{
+    opacity: 0.5;
+}
+.pro4:hover{
+    opacity: 0.5;
+}
+.pro1:hover{
+    box-shadow: 0 0 5px cyan,
+    0 0 25px cyan,0 0 25px cyan,
+    0 0 100px cyan,0 0 200px cyan;
+
+
+}
+.pro2:hover{
+    box-shadow: 0 0 5px violet,
+    0 0 25px violet,0 0 25px cyan,
+    0 0 100px violet,0 0 200px violet;
+
+
+}
+.pro4:hover{
+    box-shadow: 0 0 5px violet,
+    0 0 25px violet,0 0 25px cyan,
+    0 0 100px violet,0 0 200px violet;
+
+
+}
+.pro3:hover{
+    box-shadow: 0 0 5px cyan,
+    0 0 25px cyan,0 0 25px cyan,
+    0 0 100px cyan,0 0 200px cyan;
+
+
+}
+.pro2{
+    width:150px;
+    height:150px;
+    border-radius :85px;
+    margin-left:200px;
+    margin-top: 25%;
+}
+.pro3{
+    width:150px;
+    height:150px;
+    border-radius :85px;
+    margin-left:200px;
+    margin-top: 25%;
+}
+.pro4{
+    width:150px;
+    height:150px;
+    border-radius :85px;
+    margin-left:200px;
+    margin-top: 25%;
+}
+
+
